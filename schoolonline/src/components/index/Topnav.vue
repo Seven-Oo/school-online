@@ -2,6 +2,7 @@
   <div class="topnav-wrapp">
     <div class="topnav-wrapp-fluid clearfix">
       <div class="topnav-menu left">
+        <div class="topnav-logoSmall"><img class="logoSmall" src="../../assets/img/logo-pc.png" /></div>
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
           <el-menu-item class="topnav-logo-wrapper"><img class="topnav-logo" src="../../assets/img/logo-pc.png" /></el-menu-item>
           <el-menu-item index="1">首页</el-menu-item>
@@ -58,14 +59,6 @@ export default {
     z-index: 999;
     background: #fff;
     height: auto;
-  }
-  .topnav-wrapp-fluid {
-    position: relative;
-    width: 1536px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 64px;
-    padding-right: 64px;
   }
   .topnav-menu {
     font-size: 16px;
@@ -154,5 +147,14 @@ export default {
   }
   .topnav-searchBar {
     width: 218px;
+  }
+
+  .topnav-logoSmall {
+    width: auto;
+    height: 30px;
+  }
+  .topnav-logoSmall img.logoSmall {
+    width: inherit;
+    height: inherit;
   }
 </style>

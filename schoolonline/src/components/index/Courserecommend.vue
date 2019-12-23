@@ -111,14 +111,6 @@ export default {
     min-height: 36px;
   }
 
-  /* .recommend-wrapper {
-    width: 1536px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 64px;
-    padding-right: 64px;
-    margin-bottom: 30px;
-  } */
   .recommend-bgBox {
     width: 100%;
     height: 208px;

@@ -5,9 +5,9 @@
     <!-- <schoolshow></schoolshow> -->
     <h3 class="courserecommend-title">好课推荐</h3>
     <courserecommend courseType="recommend"></courserecommend>
-    <!-- <h3 class="pagetab-title">经典慕课</h3>
+    <h3 class="pagetab-title">经典慕课</h3>
     <pagetab></pagetab>
-    <courserecommend courseType="pagetab"></courserecommend> -->
+    <courserecommend courseType="pagetab"></courserecommend>
   </div>
 </template>
 
@@ -50,12 +50,4 @@ export default {
   a {
     color: #42b983;
   }
-  /* .courserecommend-title, .pagetab-title {
-    font-size: 28px;
-    font-weight: 400;
-    width: 1536px;
-    padding-left: 64px;
-    padding-right: 64px;
-    margin: 20px auto;
-  } */
 </style>

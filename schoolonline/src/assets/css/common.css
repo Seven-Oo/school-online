@@ -30,6 +30,19 @@ a{text-decoration: none;}
     padding-right: 64px;
     margin: 20px auto;
   }
+
+  .topnav-wrapp-fluid {
+    position: relative;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .el-menu-demo, .topnav-login {
+    display: none;
+  }
 }
 @media (min-width: 769px) and (max-width: 992px) {
   .recommend-wrapper {
@@ -48,6 +61,19 @@ a{text-decoration: none;}
     padding-left: 64px;
     padding-right: 64px;
     margin: 20px auto;
+  }
+
+  .topnav-wrapp-fluid {
+    position: relative;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .el-menu-demo {
+    display: none;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -68,6 +94,19 @@ a{text-decoration: none;}
     padding-right: 64px;
     margin: 20px auto;
   }
+
+  .topnav-wrapp-fluid {
+    position: relative;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .el-menu-demo {
+    display: none;
+  }
 }
 @media (min-width: 1201px) and (max-width: 1920px) {
   .recommend-wrapper {
@@ -87,6 +126,19 @@ a{text-decoration: none;}
     padding-right: 64px;
     margin: 20px auto;
   }
+
+  .topnav-wrapp-fluid {
+    position: relative;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .topnav-logoSmall {
+    display: none;
+  }
 }
 @media (min-width: 1920px) {
   .recommend-wrapper {
@@ -105,5 +157,18 @@ a{text-decoration: none;}
     padding-left: 64px;
     padding-right: 64px;
     margin: 20px auto;
+  }
+
+  .topnav-wrapp-fluid {
+    position: relative;
+    width: 1536px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .topnav-logoSmall {
+    display: none;
   }
 }
